@@ -1,0 +1,9 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Chroma vector store (large binary data, regenerated from history.db)
+chroma/
+
+# Lock files
+*.lock
